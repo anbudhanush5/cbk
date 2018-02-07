@@ -8,7 +8,6 @@ void main()
 
     printf("Prime numbers between %d and %d are: ", low, high);
 
-    while (low < high)
     {
         flag = 0;
 
@@ -22,9 +21,7 @@ void main()
         }
 
         if (flag == 0)
-            printf("%d ", low);
-
-        ++low;
+            printf("%d ", low);     
     }
 
     getch();
